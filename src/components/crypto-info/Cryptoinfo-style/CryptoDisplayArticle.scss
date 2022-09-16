@@ -1,0 +1,42 @@
+.article-container > img {
+  width: 600px;
+  height: 520px;
+  //   border: 1px solid black;
+  display: flex;
+  margin-left: 30%;
+  margin-top: 90px;
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.article-button2 > button {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-left: 20px;
+}
+
+.article-button1 > button {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-left: 5px;
+}
+.btns-display-article {
+  display: flex;
+  margin-left: 30%;
+  margin-top: 20px;
+}
+.article-title {
+  margin-left: 30%;
+}
+.article-p {
+  text-align: justify;
+  margin-left: 30%;
+  margin-right: 35%;
+}

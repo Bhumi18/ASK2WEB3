@@ -1,0 +1,88 @@
+.crypto-header {
+  overflow: hidden;
+  white-space: nowrap;
+  // background-color: black;
+}
+.coin-header {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  border: 1px solid black;
+  font-size: 10px;
+  z-index: 0;
+  height: 50px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+  width: 150%;
+  margin-top: 80px;
+}
+img.imgs {
+  height: 40px;
+  width: 40px;
+  padding-top: 2px;
+}
+
+.name {
+  font-size: 10 px;
+  color: white;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  // padding-right: 3px;
+  line-height: 10px;
+  box-sizing: border-box;
+  // font-size: small;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.price {
+  font-size: 10px;
+  color: red;
+  padding-top: 2px;
+  // padding-left: 10px;
+}
+.symbol {
+  font-size: 10px;
+  color: green;
+  padding-top: 2px;
+  padding-right: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.coin {
+  display: flex;
+  gap: 5px;
+  margin: 10px !important;
+  align-items: center;
+  align-content: center;
+  float: right;
+  line-height: 20px;
+  white-space: inherit;
+  inline-size: min-content;
+  // transform: scale(1);
+  // transition: all 1s ease;
+  padding-left: 10px;
+  padding-right: 10px;
+  animation-duration: 4.5s;
+  -webkit-animation: loop 9s infinite linear;
+  animation: loop 9s infinite linear;
+  animation-iteration-count: infinite;
+}
+@keyframes loop {
+  0% {
+    -webkit-transform: translatex(100%);
+    transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translatex(-200%);
+    transform: translateX(-200%);
+  }
+}
+.crypto-main-container {
+  display: inline-flex;
+  flex-direction: row;
+  height: 95vh;
+  width: 100%;
+  // background-color: black;
+}

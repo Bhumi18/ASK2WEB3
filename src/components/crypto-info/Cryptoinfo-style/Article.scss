@@ -1,0 +1,65 @@
+.crypto-article {
+  min-width: 50%;
+  height: 70vh;
+
+  // min-height: none;
+}
+.leftcolumn {
+  // float: left;
+  width: 100%;
+  border: 1px solid black;
+  margin-left: 20%;
+  margin-right: 10%;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 70vh;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  overflow-x: hidden;
+  // overflow: hidden;
+  // overflow-y:visible;
+  padding-top: 4px;
+  display: inline-block;
+  background-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+.leftcolumn::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Fake image */
+.fakeimg {
+  // background-color: #aaa;
+  width: 120%;
+  height: 120%;
+  padding-bottom: 20px;
+  padding-left: 5%;
+}
+
+.crypto-img {
+  width: 80%;
+  height: 100%;
+}
+
+/* Add a card effect for articles */
+.article {
+  padding: 10px;
+  text-align: justify;
+  font-size: small;
+}
+
+.crypto-btn {
+  padding-left: 5px;
+  padding-top: 10px;
+}
+.readmore {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: blue;
+}
+.readmore:hover {
+  color: black;
+}
