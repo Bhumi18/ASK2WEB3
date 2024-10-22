@@ -1,46 +1,49 @@
-# Getting Started with Create React App and Redux
+# Ask2Web3
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+Ask2Web3 is a community-driven platform aimed at helping users find solutions to their technology-related queries. It connects users with experts for direct communication and rewards valuable contributions, creating a collaborative environment for knowledge sharing in the Web3 space.
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+The primary goal of Ask2Web3 is to provide a better platform for developers to get answers to their questions and encourage the community to share solutions for others to benefit. The platform is built on the Polygon network, utilizing various Web3 technologies to enhance user experience and decentralize data management.
 
-### `npm start`
+### Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Community-Based Q&A:** Users can ask questions and tag them with relevant topics. Anyone can answer these questions, helping others in the community.
+- **Decentralized Storage:** All questions and answers are stored on IPFS, ensuring data immutability and decentralization.
+- **User Profiles:** Each user has a profile showcasing their activity and expertise. Users can also connect directly with experts by paying a fee.
+- **Direct Messaging:** Powered by XMTP, users can send messages directly to experts for personalized solutions.
+- **Voting and Reputation:** Users earn reputation points for posting questions, answers, articles, and voting on others' contributions. Active contributors receive POAP tokens as appreciation.
+- **Articles and Tips:** Users can publish articles to share knowledge on emerging technologies. Articles can be tipped by other users as a token of appreciation.
+- **Crypto Information:** Crypto-related information is displayed using The Graph and Covalent.
+- **Rewards:** Users can claim rewards and reputation tokens directly in their wallets.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How It Works
 
-### `npm test`
+1. **Ask a Question:** Users can post their questions and tag them with the best descriptors. The questions and answers are stored on IPFS for decentralized access.
+2. **Answer or Vote:** Anyone can answer questions or vote for questions and answers, contributing to the community and earning reputation points.
+3. **Direct Communication:** Users can connect with experts for direct messaging using XMTP. A fee is required for this service, benefiting the experts.
+4. **Publish Articles:** Users can share their expertise by publishing articles. Tips can be given to articles, rewarding the authors.
+5. **Earn Rewards:** Contributions such as answering questions, voting, and posting articles earn users reputation points and tokens.
+6. **Crypto Information and Articles:** The platform displays crypto-related news and articles, helping the community stay updated.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technology Stack
 
-### `npm run build`
+- **Blockchain:** Built on the Polygon network for low gas fees and high security.
+- **Storage:** Uses IPFS for decentralized storage of questions and answers.
+- **Messaging:** XMTP for secure and private direct communication between users.
+- **Database:** Tableland for storing searchable metadata about questions and answers.
+- **Hosting:** Spheron for decentralized hosting of the platform.
+- **Reputation Tokens:** POAP for issuing appreciation tokens to active contributors.
+- **Crypto Data:** The Graph and Covalent for fetching and displaying crypto-related information.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How It's Made
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ask2Web3 integrates multiple Web3 technologies to create a decentralized, community-driven platform:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Polygon:** Chosen for its scalability, low fees, and security.
+- **IPFS:** Used for decentralized storage, making all content immutable and censorship-resistant.
+- **XMTP:** Enables direct and private messaging between users.
+- **Tableland:** A decentralized SQL service that supports querying for questions and answers metadata.
+- **Spheron:** Used to host the platform on a decentralized infrastructure.
+- **POAP:** Issues tokens to users as appreciation for their contributions to the platform.
+- **The Graph and Covalent:** Fetch data related to cryptocurrencies and display it in the platform.
